@@ -20,6 +20,11 @@
         text-align: center;
       }
     </style>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("service-worker.js");
+      }
+    </script>
     <title>Document</title>
   </head>
   <body>
